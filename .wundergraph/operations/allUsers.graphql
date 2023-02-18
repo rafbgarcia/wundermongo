@@ -1,0 +1,6 @@
+query allUsers {
+  users: mongo_findManyusers {
+    id
+    firstName
+  }
+}
